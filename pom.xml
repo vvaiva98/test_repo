@@ -13,6 +13,14 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.11.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
@@ -25,7 +33,7 @@
                     <archive>
                         <manifest>
                             <!-- Replace with the fully qualified name of your Main class -->
-                            <mainClass>org.example.Main</mainClass>
+                            <mainClass>org.example.HelloWorld</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
